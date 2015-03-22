@@ -22,6 +22,9 @@
     },
     "body-parser/body-parser.d.ts": {
       "commit": "32f0a90dab26f70b206407ac24d4d622d0f0f408"
+    },
+    "debug/debug.d.ts": {
+      "commit": "32f0a90dab26f70b206407ac24d4d622d0f0f408"
     }
   }
 }
