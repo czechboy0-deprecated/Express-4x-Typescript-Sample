@@ -31,7 +31,7 @@ app.use('/users', users);
 /*
 *   TODO: fix missing definitions for
 *       - Error.status (number)
-*       - Response.status
+*       - app.use multiple overloads
 */
 //catch 404 and forward to error handler
 app.use((req, res, next) => {
