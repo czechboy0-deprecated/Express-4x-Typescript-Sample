@@ -1,4 +1,6 @@
-var express = require('express');
+/// <reference path='../typings/tsd.d.ts' />
+
+import express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
