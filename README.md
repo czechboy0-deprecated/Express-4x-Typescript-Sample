@@ -21,12 +21,6 @@ This will
 - transpile all used .ts files
 - run www
 
-WARNING
--------
-At the moment, the transpiler will complain about missing definitions, but the generated files will still run just fine. It has to do with `Error.status` not being defined and about the transpiler getting confused by overloaded functions in Express. I will try to fix it, you can help out too.
-
-If you don't need those three functions on lines 36-65 in `app.ts`, comment them out (they are just nice-to-haves).
-
 Contributions
 -------------
 Feel free to send a PR or create an Issue.
