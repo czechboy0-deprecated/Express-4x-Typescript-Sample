@@ -28,11 +28,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
-/*
-*   TODO: fix missing definitions for
-*       - Error.status (number)
-*       - app.use multiple overloads
-*/
 //catch 404 and forward to error handler
 app.use((req, res, next) => {
    var err = new Error('Not Found');
